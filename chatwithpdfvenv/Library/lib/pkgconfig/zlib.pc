@@ -1,0 +1,13 @@
+prefix=E:/Gen AI Project/ChatWithMultiPDF/chatwithpdfvenv/Library
+exec_prefix=E:/Gen AI Project/ChatWithMultiPDF/chatwithpdfvenv/Library
+libdir=E:/Gen AI Project/ChatWithMultiPDF/chatwithpdfvenv/Library/lib
+sharedlibdir=E:/Gen AI Project/ChatWithMultiPDF/chatwithpdfvenv/Library/lib
+includedir=E:/Gen AI Project/ChatWithMultiPDF/chatwithpdfvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
